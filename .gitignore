@@ -1,0 +1,5 @@
+## Node Modules
+js/node_modules
+js/.env
+wp/node_modules
+wp/.env
