@@ -8,6 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js',
+        publicPath: '/',
         clean: true,
     },
     resolve: {
@@ -29,7 +30,7 @@ module.exports = {
     devtool: 'inline-source-map',
     devServer: {
         static: {
-            directory: path.join(__dirname, 'public'),
+            directory: path.join(__dirname, 'public/index.html'),
         },
         historyApiFallback: true,
         hot: true,
