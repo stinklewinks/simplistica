@@ -20,7 +20,7 @@ interface AuthorInterface {
     description: string;
 }
 
-function SinglePost() {
+function SinglePostId() {
     const { postId } = useParams<{ postId: string }>();  // Extract postId from the URL params
     const [post, setPost] = useState<SinglePostInterface | null>(null);
     const [author, setAuthor] = useState<AuthorInterface | null>(null);
@@ -96,4 +96,4 @@ function SinglePost() {
     );
 }
 
-export default SinglePost;
+export default SinglePostId;

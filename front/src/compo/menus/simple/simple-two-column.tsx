@@ -13,7 +13,10 @@ function SimpleTwoColumn() {
                     <Link to="/">Home</Link>
                 </li>
                 <li className="grange-extended bold-italic text:md">
-                    <Link to="/post/1">Certain Post</Link>
+                    <Link to="/post/127">Post with ID</Link>
+                </li>
+                <li className="grange-extended bold-italic text:md">
+                    <Link to="/posts/thine-blog-is-live">Post with Slug</Link>
                 </li>
             </ul>
         </nav>

@@ -48,16 +48,13 @@ function AllPosts() {
                     key={index}
                     className="m:auto w:min:65 h:min:25 h:max:45 flex col items:center gap:1 ds:sm mt:5 p:rel:10"
                 >
-                <h2 className="lobster text:xxlg">
-                    {post.title.rendered}
-                </h2>
-                <p
-                    className="ballinger text:sm"
-                    dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} 
-                />
-                <p
-                    className="grange:light text:md"
-                    dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+                    <h2 className="lobster text:xxlg">
+                        {post.title.rendered}
+                    </h2>
+                    <p
+                        className="ballinger text:sm"
+                        dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} 
+                    />
                 </div>
                 
             )}
